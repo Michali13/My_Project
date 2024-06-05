@@ -1,0 +1,11 @@
+.bg_cont{
+/*     border: 1px solid black;
+ */   
+  width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 175px;
+    border-radius: 20px;
+    background-color: #222A34;
+    position: relative;
+}
