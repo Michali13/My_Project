@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Aduma;
+    src: url(./font/Aduma\ Regular.ttf);
+  }
+
 .bg_cont{
 /*     border: 1px solid black;
  */   
@@ -8,4 +13,68 @@
     border-radius: 20px;
     background-color: #222A34;
     position: relative;
+}
+
+.close_red{
+
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.header_title{
+color: white;
+text-align: right;
+position: relative;
+top: 24px;
+right: 38px;
+font-size: 34px;
+font-family: Aduma;
+}
+
+.header_formats{
+color:darkgrey;
+direction: rtl;
+position: absolute;
+left: 150px;
+font-size: 13px;
+}
+
+.upload_img_btn{
+background-color: #475366;
+color:lavenderblush;
+border: 0;
+padding: 8px;
+border-radius: 20px;
+width: 128px;
+margin-left: 11px;
+text-align: right;
+padding-right: 16px;
+background-image: url(./assets/Upload.png);
+background-repeat: no-repeat;
+background-position: 11px 9px;
+}
+.right_div{
+  width: 53%;
+    margin-right: 19px;
+  background-color: #2F3A4B;
+    border-radius: 18px;
+}
+
+.left_div{
+ 
+  width: 110%;
+  margin-left: 19px;
+  background-color: #2F3A4B;
+    border-radius: 18px;
+}
+
+
+.middle_cont{
+  width: 100%;
+  height: 642px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 12px;
+  margin-top: 20px;
 }

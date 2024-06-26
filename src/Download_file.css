@@ -1,0 +1,85 @@
+.Download_file_cont{
+    color: white;
+    height: 43%;
+    background-color: #161B21;
+    position: relative;
+}
+
+
+.top{
+
+    margin-top: 50px;
+    border-bottom: 1px solid #ffffff61;
+}
+
+.file_title{
+
+    font-family: Aduma;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 13px;
+    position: relative; 
+    top: 25px;
+}
+
+.file_subtitle{
+  
+    font-family: Aduma;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 13px;
+    position: relative; 
+    top: 25px;
+}
+
+.file_btn{
+    color: #2196f3;
+    background-color: transparent;
+    border: 1px solid #21a5f3f2;
+    width: 273px;
+    height: 33px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.small_text{
+    text-align: right;
+    padding-right: 33px;
+    font-size: 11px;
+    margin-top: 18px;
+    color: #ffffff70;
+    background-image: url(./assets/check.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+.pro_img{
+position: absolute;
+right: 0;
+top: 26px;
+
+}
+
+.bottom_title{
+    margin-right: 20px;
+}
+
+.footer{  
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 75px;
+    margin-right: 24px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.banner{
+    width: 77%;
+    margin-top: -6px;
+}
+
+.logo{
+    margin-left: 27px;
+}
