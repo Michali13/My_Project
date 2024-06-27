@@ -78,8 +78,32 @@ top: 26px;
 .banner{
     width: 77%;
     margin-top: -6px;
-}
+    }
 
 .logo{
     margin-left: 27px;
+    width: 14%;
+    margin-top: 1px;
+    
+}
+
+.tab_no_bg, .tab_original{
+    color: white;
+    font-family: Aduma;
+    font-size: 25px;
+    width: 100px;
+    text-align: center;
+  
+} 
+
+.tab_cont{
+ 
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 12px;
+}
+
+.selected_tab{
+    border-bottom:3px solid rgba(199, 75, 178, 0.76) ;
+  
 }
