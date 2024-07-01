@@ -1,6 +1,6 @@
 .Download_file_cont{
     color: white;
-    height: 43%;
+    height: 42%;
     background-color: #161B21;
     position: relative;
 }
@@ -8,7 +8,7 @@
 
 .top{
 
-    margin-top: 50px;
+    margin-top: 44px;
     border-bottom: 1px solid #ffffff61;
 }
 
@@ -93,8 +93,21 @@ top: 26px;
     font-size: 25px;
     width: 100px;
     text-align: center;
-  
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 96px 9px;
+  padding-right: 20px;
 } 
+
+
+.tab_no_bg{
+background-image: url(./assets/Cleanup\ Edges.png);
+}
+
+.tab_original{
+    background-image: url(./assets/Image.png);
+}
+
 
 .tab_cont{
  

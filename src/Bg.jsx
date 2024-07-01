@@ -4,28 +4,30 @@ import Download_file from './Download_file';
 import banner from './assets/banner.png'
 import logo from './assets/logo.png'
 import React, { useState } from 'react';
+import No_bg from './No_bg';
+
 
 function Bg() {
 
-  const [selected_tab_no_bg, setselected_tab_no_bg] = useState('');
-  const [selected_tab_original, setselected_tab__original] = useState('selected_tab');
+  const [selected_tab_no_bg, setselected_tab_no_bg] = useState('selected_tab');
+  const [selected_tab_original, setselected_tab_original] = useState('');
 
   function update_tab_no_bg(e) {
-debugger;
 
-    if (e.target.className == 'tab_no_bg' ) {
-      update_tab_no_bg('selected_tab');
-      update_tab_no_bg('')
+    if (e.target.className == 'tab_no_bg ' || e.target.className == 'tab_no_bg selected_tab') {
+
+      setselected_tab_no_bg('selected_tab');
+      setselected_tab_original('')
     }
 
     else {
-        update_tab_no_bg('')
-        update_tab_no_bg('selected_tab');
-      }
-      
+      setselected_tab_original('selected_tab ')
+      setselected_tab_no_bg('');
     }
-    
-  
+
+  }
+
+
 
   return (
 
@@ -48,15 +50,20 @@ debugger;
 
         <div className='left_div'>
           <div className='tab_cont'>
-            <div className={'tab_no_bg' + selected_tab_no_bg} onClick={update_tab_no_bg}> הוסר רקע</div>
+            <div className={'tab_no_bg ' + selected_tab_no_bg} onClick={update_tab_no_bg}> הוסר רקע</div>
             <div className={'tab_original ' + selected_tab_original} onClick={update_tab_no_bg}>מקורי</div>
           </div>
+          {selected_tab_no_bg == 'selected_tab' ?
+            <No_bg comt_type="no_bg"></No_bg> :
+
+            <No_bg comt_type="original"></No_bg>
+          }
         </div>
 
       </div>
       <div className='footer'>
         <img src={banner} className='banner' />
-        <img src={logo} className='logo' />
+        <img src={logo} className='logo'/>
       </div>
 
     </div>
