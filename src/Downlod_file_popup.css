@@ -1,0 +1,44 @@
+.close {
+    position: relative;
+    top: 10px;
+    top: 7px;
+    left: 17px;
+    cursor: pointer;
+    }
+
+    
+.Downdload_file_popup_main{
+    position: relative;
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    top: -611px;
+    left: 190;
+    /* left: 338px; */
+    border-radius: 14px;
+    margin: 0px auto;
+}
+
+.top_img{
+    width: 68px;
+    height: 68px ;
+    position: absolute;
+    top: -34px;
+    background-color: white;
+    left: 364px;
+    box-shadow: 1px 1px 10px #d941f338;
+    border-radius: 8px;
+    background-image:url(./assets/Downloads\ Folder.png);
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 8px;
+}
+
+.Downdload_file_popup_text{
+    color: #22328b;
+    font-size: 39px;
+    text-align: center;
+    margin-top: 26px;
+    font-family: 'Aduma';
+}

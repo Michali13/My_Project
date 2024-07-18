@@ -9,8 +9,8 @@ function Download_file(props) {
 
             <div className='file_title'>{props.title}</div>
             <div className='file_subtitle'>{props.sub_title}</div>
-            <button className="file_btn">{props.btn}</button>
-            <div className="small_text"> {props.small_text} </div>
+            <button className='file_btn' onClick={()=>{props.setshow_Downlod_popup(true)}}>{props.btn}</button>
+            <div className='small_text'> {props.small_text} </div>
         </div>
 
 
